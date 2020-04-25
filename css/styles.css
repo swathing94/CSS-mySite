@@ -1,0 +1,122 @@
+body{
+  margin: 0;
+  text-align: center;/*complete screen center*/
+  font-family: 'Merriweather', serif;/*it will default choice sans-serif ,if all the first 3 dosnt load in browser*/
+  font-size: 200%;
+}
+h1{
+/*  margin: 0 auto 0 auto;for header centering
+  width: 10%;*/
+  font-size: 5.652rem;/*16px generally 90px == 90/16=5.652 inorder to get 90px as dynamic 16px=100%=1em*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #00adb5;
+}
+h2{
+  font-family: 'Abhaya Libre', serif;
+  font-size: 2.5rem;
+  color: #00adb5;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Abhaya Libre', serif;
+  color: #116979;
+}
+hr{
+  background-color: white;
+  border-style: none;/*dotted none none For all differnt sides apart foe single line*/
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;/*size of the boder dots*/
+  width: 5%;
+}
+
+.top-container{
+  background-color: #eeeeee;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  margin: 100px 0;
+}
+.intro{
+  width: 40%;
+  margin: auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;/*line-height is used for giving additional space in the paragraph line spacing*/
+  }
+.bottom-container{
+background-color: #00adb5;
+padding: 50px 0 20px;
+
+}
+.topCloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottomCloud{
+  position: absolute;
+  left: 300px;
+  top: 400px;
+}
+.footer-link
+{
+  color: #116979;
+  font-family: 'Abhaya Libre', serif;
+  margin: 10px 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+.code-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.draw-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.bottom-scroll{
+  color: #EAF6F6;
+  font-size: 15px;
+  font-family: 'Abhaya Libre', serif;
+  padding: 20px 0;
+}
+.btn{
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #116979 5%, #408c99 100%);
+	background-color:#116979;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Abhaya Libre', serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #1c756b;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #116979 5%, #599bb3 100%);
+	background-color:#116979;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+/*.design-desc{
+  clear: left;
+}
+.draw-desc{
+  clear: right;
+}*/
